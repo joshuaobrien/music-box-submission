@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 10px;
+  height: 65px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: cornsilk;
+}
+
+.albumArt {
+  width: 60px;
+  aspect-ratio: 1;
+
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  max-width: 70%;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.button {
+  border: 0;
+  padding: 0;
+  background-color: unset;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: rotate 1s linear infinite;
+}

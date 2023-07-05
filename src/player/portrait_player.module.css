@@ -1,0 +1,40 @@
+.albumArt {
+  width: 70px;
+  margin: 5px;
+  aspect-ratio: 1;
+
+  border: 1px solid lightgray;
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+.button {
+  border: 0;
+  padding: 0;
+  background-color: unset;
+  font-size: x-large;
+  padding-right: 10px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.disc {
+  animation: rotate 1s linear infinite;
+}

@@ -1,0 +1,10 @@
+.text {
+    font-family: 'Open Sans';
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+
+    user-select: none;
+
+}

@@ -1,0 +1,39 @@
+.skeleton {
+  width: 100%;
+  display: flex;
+  background: linear-gradient(white, cornsilk);
+}
+
+.container {
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.list {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.player {
+  width: 0%;
+
+  transition: width 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.player.visible {
+  border-left: 1px solid lightgrey;
+  width: 30%;
+  padding: 10px;
+}
