@@ -1,5 +1,5 @@
 # Music Box 📻
-Music box is a simple music player web app. 
+Music box is a simple music player web app. Check out a hosted version [here](https://joshuaobrien.github.io/music-box-submission/)!
 
 ### What features does it have?
 Really, it has one feature: playing music! Search for anything you want, and if it's in the iTunes library you'll be able to listen to a preview of it. It's responsive, too, so don't be afraid to resize that window a bit!
